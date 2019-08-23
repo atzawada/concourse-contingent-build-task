@@ -1,6 +1,7 @@
 FROM docker:git
 MAINTAINER atzawada@gmail.com
 
-COPY script.sh /scripts
+COPY script.sh /bin/script
 
-RUN chmod +x /scripts/script.sh
+RUN chmod +x /bin/script
+
